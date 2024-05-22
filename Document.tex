@@ -59,6 +59,29 @@ Now we can integrate this function over an interval $[a, b]$ and this gives us t
     \text{Arc length} &= \int_{-1}^{1} \sqrt{1 + f'(x)^2} dx 
 \end{align}
 
+\begin{center}
+\begin{tikzpicture}
+    \draw[step = 0.5cm, gray, very thin] (-1.5,-1.5) grid (1.5,1.5);
+    \draw (-1,0) arc (180:0:1cm);
+\end{tikzpicture}
+\end{center}
+
+\vspace{0.5cm}
+
 2. Find the arc length of $\log(\sec(x))$ from $-\frac{\pi}{4}$ to $\frac{\pi}{4}$
+
+\section{"Difficulties"}
+3. Find the arc length of an ellipse
+\begin{align}
+    f(x) &= \sqrt{1-\frac{x^2}{9}} \\
+    f'(x) &= \frac{-\frac{2x}{9}}{2\sqrt{1-\frac{x^2}{9}}}
+\end{align}
+
+\begin{center}
+    \begin{tikzpicture}
+        \draw[step = 0.5cm, gray, very thin] (-3.5,-1) grid (3.5,3.5);
+        \draw (-3,0) arc (180:0:3cm and 1cm); 
+    \end{tikzpicture}
+    \end{center}
 
 \end{document}
