@@ -1,0 +1,122 @@
+
+\documentclass[10pt]{extarticle}
+\usepackage{extsizes}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage[paperwidth=210mm, paperheight=250mm, vmargin=2cm, hmargin=1.5cm]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Answer Key}
+\rhead{Page \thepage}
+\renewcommand{\headrulewidth}{0.4pt} % Add this line
+
+\makeatletter
+\renewcommand{\maketitle}{
+  \begin{center}
+    {\Huge \@title}
+    \vspace{0cm} % Adjust this value to change the space after the title
+  \end{center}
+}
+\makeatother
+
+\title{The Length of an Arc}
+\begin{document}
+\thispagestyle{empty}
+\maketitle
+
+
+
+\hrulefill
+
+
+\section{Practice}
+\textbf{Example 1.} Find the arc length of a unit semicircle (since we know the formula for the perimeter of a circle we know our answer should be $\frac{2\pi (1)}{2} = \pi$)
+\begin{align}
+    f(x) &= \sqrt{1-x^2} \\
+    \text{Arc length} &= \int_{-1}^{1} \sqrt{1 + f'(x)^2} dx 
+\end{align}
+
+\begin{center}
+\begin{tikzpicture}
+    \draw[step = 0.5cm, gray, very thin] (-1.5,-1.5) grid (1.5,1.5);
+    \draw (-1,0) arc (180:0:1cm);
+\end{tikzpicture}
+\end{center}
+
+\textbf{SOLUTION: }
+\begin{align}
+    f'(x) &= \frac{1}{2\sqrt{1-x^2}} \cdot \frac{-2x}{1} = \frac{-x}{\sqrt{1-x^2}} dx \\ 
+    L &= \int_{-1}^{1} \sqrt{1 + ({\frac{-x}{\sqrt{1-x^2}})^2}} dx \\ 
+    L &= \int_{-1}^{1} \sqrt{1 + \frac{x^2}{1-x^2}} dx \\
+    L &= \int_{-1}^{1} \frac{1}{\sqrt{1-x^2}} dx \\ 
+    L &= \sin^{-1}(1) - \sin^{-1}(-1) \\ 
+    L &= \pi 
+\end{align}
+
+\textbf{Example 2.} Find the arc length of $\ln(\sec(x))$ from $-\frac{\pi}{4}$ to $\frac{\pi}{4}$
+
+\begin{align}
+    f(x) &= \ln(\sec(x)) \\ 
+    f'(x) &= \tan(x) \\ 
+   \text{Arc Length} &= \int_{-\frac{\pi}{4}}^{\frac{\pi}{4}}  \sqrt{1 + (tan(x))^2} dx \\ 
+    &= \int_{-\frac{\pi}{4}}^{\frac{\pi}{4}}  \sqrt{(\sec(x))^2} dx \\
+    &= \int_{-\frac{\pi}{4}}^{\frac{\pi}{4}}  \sec(x) dx \\
+    &= \ln(|\tan(\frac{\pi}{4}) + \sec(\frac{\pi}{4})|) -  \ln(|\tan(-\frac{\pi}{4}) + \sec(-\frac{\pi}{4})|) \\
+    &= \ln(\sqrt{2}+1) - \ln(\sqrt{2} - 1)
+\end{align}
+
+\textbf{Example 3.} Find the arc length of $y = x^{3/2} $ from $x = 0$ to $x= 4$ 
+
+\vspace{8cm}
+
+\section{Finding lengths of parametric functions}
+
+\textbf{Example 1.} Lets revisit our first example, finding the length of half an arc of a unit circle (from $0$ to $\pi$), since we can now rewrite it using the following parametric functions
+\begin{align} 
+    x = sin(t) \\ 
+    y = cos(t) 
+\end{align}
+
+\textbf{SOLUTION: }
+
+\begin{align}
+    \frac{dx}{dt} &= \cos(x) \\ 
+    \frac{dy}{dt} &= -\sin(x) \\
+    L &= \int_{0}^{\pi} \sqrt{(\cos(x))^2 + (-\sin(x))^2} dx \\
+    L &= \int_{0}^{\pi} 1 \cdot dx \\ 
+    L &= \pi - 0 \\
+    L &= \pi
+\end{align}
+
+\textbf{Example 2.} Find the length of the following parametric curve from $t = -2$ to $t = 2$
+
+\begin{align} 
+    x &= t^3 - 3t \\ 
+    y &= 3t^2  
+\end{align}
+
+
+\begin{align} 
+    \frac{dx}{dt} &= t^3 - 3t \\ 
+    \frac{dy}{dt} &= 3t^2  
+\end{align}
+
+\section{"Difficulties"}
+3. Find the arc length of an ellipse
+\begin{align}
+    f(x) &= \sqrt{1-\frac{x^2}{9}} \\
+    f'(x) &= \frac{-\frac{2x}{9}}{2\sqrt{1-\frac{x^2}{9}}}
+\end{align}
+
+\begin{center}
+    \begin{tikzpicture}
+        \draw[step = 0.5cm, gray, very thin] (-3.5,-1) grid (3.5,3.5);
+        \draw (-3,0) arc (180:0:3cm and 1cm); 
+    \end{tikzpicture}
+\end{center}
+
+\end{document}

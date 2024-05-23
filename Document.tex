@@ -1,4 +1,4 @@
-\documentclass[10pt]{extarticle}
+\documentclass[12pt]{extarticle}
 \usepackage{extsizes}
 \usepackage{xcolor}
 \usepackage{amsmath}
@@ -41,7 +41,7 @@ We already know how to calculate the length of a straight line using the Pythago
     \text{Length of a straight line} = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
 \end{equation}
 
-We can first start by splitting our surve into many small straight line segments segments of width $\Delta x$
+We can first start by splitting our curve into many small straight line segments segments of width $\Delta x$
 
 The sum of all these line segments (as $\Delta x$ goes to zero) approaches the length of the line 
 
@@ -49,12 +49,16 @@ The sum of all these line segments (as $\Delta x$ goes to zero) approaches the l
     \sum \sqrt{{\Delta x}^2 + {\Delta y}^2}
 \end{align}
 
+\begin{center}
+    \includegraphics[height = 0.4\textheight]{proofImage1.png}
+\end{center}
+
 So now we have to find a way to write this where we can evaluate a riemann sum (and thus an integral).
 We can factor out $\Delta x^2$ from both deltas inside the equation
 
 \begin{align}   
-    \sum \sqrt{{\Delta x^2}(1 + {(\frac{\Delta x}{\Delta y}})^2)} \\
-    \sum \sqrt{(1 + {(\frac{\Delta x}{\Delta y}})^2)} \cdot \Delta x
+    \sum \sqrt{{\Delta x^2}(1 + {(\frac{\Delta y}{\Delta x}})^2)} \\
+    \sum \sqrt{(1 + {(\frac{\Delta y}{\Delta x}})^2)} \cdot \Delta x
 \end{align}
 
 As $\Delta x$ approaches 0, we realize this is a riemann sum and can use the fundamental theorem of calculus to evalute it 
@@ -80,14 +84,17 @@ We also see that $\frac{\Delta x}{\Delta y}$ is the derivative of the function, 
 
 \vspace{0.5cm}
 
-
 \textbf{Example 2.} Find the arc length of $\log(\sec(x))$ from $-\frac{\pi}{4}$ to $\frac{\pi}{4}$
 
-\vspace{12cm}
+\vspace{10cm}
 
-\textbf{Example 3.} Find the arc length of $y = x^{3/2} $ from $x = 0$ to $x= 4$ 
+\textbf{Example 3.} Find the surface area length of strip $y = x^{3/2} $ from $x = 0$ to $x= 4$, when stretched across the z-axis by 4 units
 
-\vspace{8cm}
+\begin{center}
+    \includegraphics[height = 0.4\textwidth]{Surface.png}
+\end{center}
+
+\vspace{10cm}
 
 \section{Arc Length of Parametric Functions}
 
@@ -99,19 +106,19 @@ We will be using the derivative of both the x component and the y component \\ W
     \text{Change in x} &= \Delta x = \frac{\Delta x}{\Delta t} \cdot \Delta t  
 \end{align}
 
-Now lets use our initial formula again to 
+Now lets use our initial formula again to find the arc length of a parametric function
 
 
 \begin{align} 
     &= \sum \sqrt{(\frac{\Delta x}{\Delta t} \cdot \Delta x)^2 + (\frac{\Delta y}{\Delta t} \cdot \Delta t) ^ 2} \\ 
-    &= \sum \sqrt{(\Delta t)^2(\frac{\Delta x}{\Delta t})^2 + (\frac{\Delta y}{\Delta t}) ^ 2} \\ 
+    &= \sum \sqrt{(\Delta t)^2((\frac{\Delta x}{\Delta t})^2 + (\frac{\Delta y}{\Delta t}) ^ 2)} \\ 
     &= \sum \sqrt{(\frac{\Delta x}{\Delta t})^2 + (\frac{\Delta y}{\Delta t}) ^ 2} \cdot \Delta t \\ 
 \end{align}
 
 And treating this as a riemann sum we can then use integral calculus to evaluate as $\Delta t$ goes to zero and this leaves us with the following formula for the arc length of a parametric function:
 
 \begin{align} 
-    \text{Length of a parametric curve} &= \int_{a}^{b} \sqrt{(\frac{dx}{dt})^2 + (\frac{dy}{dt}) ^ 2} \cdot \Delta t  
+    \text{Length of a parametric curve} &= \int_{a}^{b} \sqrt{(\frac{dx}{dt})^2 + (\frac{dy}{dt}) ^ 2} \cdot dt  
 \end{align}
 
 \section{Finding lengths of parametric functions}
