@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1716511006.2849 "/home/hiatus/Documents/MathLesson/Document.tex" "Document.pdf" "Document" 1716511007.80831 0
-  "/home/hiatus/Documents/MathLesson/Document.tex" 1716511005.97446 5358 be4c0c0998e99dc5acde8f39fa85aeb2 ""
+["pdflatex"] 1716511230.4504 "/home/hiatus/Documents/MathLesson/Document.tex" "Document.pdf" "Document" 1716511231.37004 0
+  "/home/hiatus/Documents/MathLesson/Document.tex" 1716511230.14867 4965 c28697b992fa1c850809aeefc8868398 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1713199481 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1713199481 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1713199481 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -116,15 +116,10 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1713199481 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1716420551.09614 5312047 b07fcd2a9090df96fc745b92a3db793b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1716420388 7112998 c8f12279e8bdd415b3c9939bb7c41181 ""
-  "Document.aux" 1716511007.69788 589 12614cc8a8997dc8448b93817d385281 "pdflatex"
-  "Document.tex" 1716511005.97446 5358 be4c0c0998e99dc5acde8f39fa85aeb2 ""
+  "Document.aux" 1716511231.26206 589 318fcddc440a4c7444d24825ad541708 "pdflatex"
+  "Document.tex" 1716511230.14867 4965 c28697b992fa1c850809aeefc8868398 ""
   "Graph.png" 1716430164.34714 11913 50754cd7ebf1fa0151155b7f2571ab1a ""
   "Surface.png" 1716503202.65726 27981 ae77f4d0d4edccd0d7c0928a68736b07 ""
-  "assignment0001.png" 1716509306.31999 50145 2674d008805a1eb195b2d2decf850f8d ""
-  "assignment0002.png" 1716509262.7912 49823 29f3d8313157eef6d2470543bc2a8f2b ""
-  "assignment0003.png" 1716509285.85566 75944 21bf44965b3899ce41e31508d516c154 ""
-  "assignment0004.png" 1716509294.2094 53288 986d5bbefc2472cf98ac0f66f8847b18 ""
-  "assignment0005.png" 1716510595.15165 28473 8f2dc80ed8d7d6c33a84e64cb8994d7f ""
   "proofImage1.png" 1716503202.65726 43147 26cbd0589e0ad6c99c71efb0bef36508 ""
   (generated)
   "Document.aux"
