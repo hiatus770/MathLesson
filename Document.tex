@@ -82,24 +82,32 @@ We also see that $\frac{\Delta x}{\Delta y}$ is the derivative of the function, 
 \end{tikzpicture}
 \end{center}
 
-\vspace{0.5cm}
+\begin{center}
+    \includegraphics[width = 0.4\textwidth]{assignment0001.png}
+\end{center}
+
 
 \textbf{Example 2.} Find the arc length of $\log(\sec(x))$ from $-\frac{\pi}{4}$ to $\frac{\pi}{4}$
 
-\vspace{10cm}
+\begin{center}
+    \includegraphics[width = 0.5\textwidth]{assignment0002.png}
+\end{center}
 
 \textbf{Example 3.} Find the surface area length of strip $y = x^{3/2} $ from $x = 0$ to $x= 4$, when stretched across the z-axis by 4 units
 
 \begin{center}
-    \includegraphics[height = 0.4\textwidth]{Surface.png}
+    \includegraphics[height = 0.2\textwidth]{Surface.png}
 \end{center}
 
-\vspace{10cm}
+\begin{center}
+    \includegraphics[width = 0.5\textwidth]{assignment0003.png}
+\end{center}
+
 
 \section{Arc Length of Parametric Functions}
 
 For the derivation of the arc length of parametric functions, we will go a slightly different route \\
-We will be using the derivative of both the x component and the y component \\ We know the our change in y can be found by using the parametric equation for y based on t 
+We will be using the derivative of both the $x$ component and the $y$ component \\ We know the our change in $y$ can be found by using the parametric equation for $y$ based on $t$, and the same thing can be said for the change in $x$
 
 \begin{align} 
     \text{Change in y} &= \Delta y = \frac{\Delta y}{\Delta t} \cdot \Delta t \\
@@ -125,11 +133,14 @@ And treating this as a riemann sum we can then use integral calculus to evaluate
 
 \textbf{Example 1.} Lets revisit our first example, finding the length of half an arc of a unit circle (from $0$ to $\pi$), since we can now rewrite it using the following parametric functions
 \begin{align} 
-    x = sin(t) \\ 
-    y = cos(t) 
+    x = \sin(t) \\ 
+    y = \cos(t) 
 \end{align}
 
-\vspace{8cm}
+\begin{center}
+    \includegraphics[width = 0.7\textwidth]{assignment0005.png}
+\end{center}
+
 
 \textbf{Example 2.} Find the length of the following parametric curve from $t = -2$ to $t = 2$
 
@@ -142,22 +153,9 @@ And treating this as a riemann sum we can then use integral calculus to evaluate
     \includegraphics[height = 0.3\textheight]{Graph.png}
 \end{center}
 
-
-
-\vspace{15cm}
-
-\section{"Difficulties"}
-3. Find the arc length of an ellipse
-\begin{align}
-    f(x) &= \sqrt{1-\frac{x^2}{9}} \\
-    f'(x) &= \frac{-\frac{2x}{9}}{2\sqrt{1-\frac{x^2}{9}}}
-\end{align}
-
 \begin{center}
-    \begin{tikzpicture}
-        \draw[step = 0.5cm, gray, very thin] (-3.5,-1) grid (3.5,3.5);
-        \draw (-3,0) arc (180:0:3cm and 1cm); 
-    \end{tikzpicture}
-    \end{center}
+    \includegraphics[width = 0.9\textwidth]{assignment0004.png}
+\end{center}
+
 
 \end{document}

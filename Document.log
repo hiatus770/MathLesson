@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.21)  23 MAY 2024 14:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.22)  23 MAY 2024 20:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -436,6 +436,12 @@ Package pdftex.def Info: proofImage1.png  used on input line 53.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./proofImage1.png>]
+<assignment0001.png, id=17, 1104.125pt x 803.0pt>
+File: assignment0001.png Graphic file (type png)
+<use assignment0001.png>
+Package pdftex.def Info: assignment0001.png  used on input line 86.
+(pdftex.def)             Requested size: 204.85672pt x 148.98152pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -443,12 +449,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2]
-<Surface.png, id=22, 1086.0575pt x 893.3375pt>
+[2 <./assignment0001.png>]
+<assignment0002.png, id=25, 1104.125pt x 803.0pt>
+File: assignment0002.png Graphic file (type png)
+<use assignment0002.png>
+Package pdftex.def Info: assignment0002.png  used on input line 93.
+(pdftex.def)             Requested size: 256.07481pt x 186.22997pt.
+<Surface.png, id=26, 1086.0575pt x 893.3375pt>
 File: Surface.png Graphic file (type png)
 <use Surface.png>
-Package pdftex.def Info: Surface.png  used on input line 94.
-(pdftex.def)             Requested size: 249.04224pt x 204.85672pt.
+Package pdftex.def Info: Surface.png  used on input line 99.
+(pdftex.def)             Requested size: 124.52112pt x 102.42836pt.
+<assignment0003.png, id=27, 1104.125pt x 803.0pt>
+File: assignment0003.png Graphic file (type png)
+<use assignment0003.png>
+Package pdftex.def Info: assignment0003.png  used on input line 103.
+(pdftex.def)             Requested size: 256.07481pt x 186.22997pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -457,7 +473,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3 <./Surface.png>]
+[3 <./assignment0002.png> <./Surface.png> <./assignment0003.png>]
+<assignment0005.png, id=34, 1104.125pt x 803.0pt>
+File: assignment0005.png Graphic file (type png)
+<use assignment0005.png>
+Package pdftex.def Info: assignment0005.png  used on input line 141.
+(pdftex.def)             Requested size: 358.50317pt x 260.72685pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -466,11 +488,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-<Graph.png, id=31, 411.5375pt x 526.96875pt>
+<Graph.png, id=38, 411.5375pt x 526.96875pt>
 File: Graph.png Graphic file (type png)
 <use Graph.png>
-Package pdftex.def Info: Graph.png  used on input line 142.
+Package pdftex.def Info: Graph.png  used on input line 153.
 (pdftex.def)             Requested size: 139.98997pt x 179.25418pt.
+<assignment0004.png, id=39, 1104.125pt x 803.0pt>
+File: assignment0004.png Graphic file (type png)
+<use assignment0004.png>
+Package pdftex.def Info: assignment0004.png  used on input line 157.
+(pdftex.def)             Requested size: 460.93153pt x 335.22374pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -479,7 +506,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5 <./Graph.png>]
+[5 <./assignment0005.png> <./Graph.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -487,25 +514,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6] (./Document.aux)
+[6 <./assignment0004.png>] (./Document.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 13315 strings out of 476076
- 269371 string characters out of 5793775
+ 13344 strings out of 476076
+ 270105 string characters out of 5793775
  1938187 words of memory out of 5000000
- 35205 multiletter control sequences out of 15000+600000
+ 35234 multiletter control sequences out of 15000+600000
  562691 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 102i,12n,107p,444b,471s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Document.pdf (6 pages, 179113 bytes).
+ 102i,11n,107p,444b,471s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Document.pdf (6 pages, 385027 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
